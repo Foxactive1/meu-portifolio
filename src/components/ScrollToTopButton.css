@@ -1,0 +1,33 @@
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #0077b5; /* Azul do LinkedIn */
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 10px 15px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.scroll-to-top:hover {
+  background-color: #005e93; /* Azul mais escuro */
+  transform: scale(1.1);
+}
+
+/* Ocultar o botão inicialmente */
+.scroll-to-top.hidden {
+  display: none;
+}
+
+/* Responsividade: ajustar tamanho em telas menores */
+@media (max-width: 768px) {
+  .scroll-to-top {
+    padding: 8px 12px;
+    font-size: 1.2rem;
+  }
+}

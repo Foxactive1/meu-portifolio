@@ -1,0 +1,23 @@
+.skills {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.skills ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skills li {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.skills li svg {
+  font-size: 2rem; /* Ajuste o tamanho do ícone */
+  color: #61dafb; /* Cor dos ícones, você pode alterar conforme o tema */
+}
